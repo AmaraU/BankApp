@@ -1,0 +1,52 @@
+
+.pagination {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.pagination button {
+    cursor: pointer;
+}
+.pagination button:disabled,
+.pagination button[disabled] {
+    pointer-events: none;
+}
+
+.pagination .move {
+    border: 1px solid #EFECE9;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+.pagination .move img {
+    width: 16px;
+    height: 16px;
+}
+
+.activePage {
+    padding: 10px 15px;
+    background-color: #F7F7F7;
+    border: none;
+    border-radius: 10px;
+    color: #101828;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    pointer-events: none;
+}
+
+.gotToPage {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    color: #101828;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    pointer-events: all;
+}

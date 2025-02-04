@@ -1,0 +1,79 @@
+.calendarDiv {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px 0px #9CA3AF33;
+    border-radius: 12px;
+    position: absolute;
+    z-index: 3;
+    margin-left: -220px;
+}
+
+.rdrSelected,
+.rdrInRange,
+.rdrStartEdge,
+.rdrEndEdge {
+    background-color: #A41857 !important;
+}
+
+.rdrDayToday
+.rdrDayNumber span:after{
+    background: #A41857;
+}
+
+.rdrDayStartPreview,
+.rdrDayInPreview,
+.rdrDayEndPreview {
+    border-color: #A41857;
+}
+
+.rdrStartEdge,
+.rdrEndEdge {
+    background-color: #A41857 !important;
+}
+
+.rdrToday span {
+    border: 1px solid #A41857;
+    color: #A41857 !important;
+}
+
+.calendarDiv .calendarButtons {
+    display: flex;
+    gap: 4px;
+    align-self: end;
+    padding: 0 24px 12px 0;
+}
+.calendarButtons .cancel {
+    border: 1px solid #A41857;
+    padding: 3px 8px;
+    border-radius: 8px;
+    font-size: 10px;
+    color: #A41857;
+    font-weight: 400;
+}
+.calendarButtons .cancel:hover {
+    background: #A4185715;
+}
+.calendarButtons .apply {
+    padding: 3px 8px;
+    border-radius: 8px;
+    background: #A41857;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.calendarButtons .apply:hover {
+    background: #90164D;
+}
+
+
+.rdrMonthAndYearPickers {
+    select option:checked,
+    select option:hover {
+        box-shadow: 0 0 10px 100px #000 inset;
+    }
+}
+
+.rdrDateDisplayItemActive{
+    border-color: #A41857;
+}

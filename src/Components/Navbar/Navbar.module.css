@@ -1,0 +1,160 @@
+.theWhole,
+.hiddenWhole {
+    background-color: #FFFFFF;
+    border-right: 1px solid #EAECF0;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    z-index: 11;
+}
+.theWhole::-webkit-scrollbar,
+.hiddenWhole::-webkit-scrollbar {
+    display: none;
+}
+
+
+.logo {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+    color: #A41857;
+    font-weight: 600;
+    font-size: 24px;
+}
+.logo a img {
+    width: 50%;
+    height: auto;
+}
+.logoTwo {
+    display: none;
+}
+
+.showNav {
+    display: none;
+    height: 70px;
+    width: auto;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14px;
+    color: #A41857;
+    font-weight: 600;
+    font-size: 24px;
+}
+.showNav img {
+    width: auto;
+    height: 60%;
+}
+
+.linkList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 8px;
+    border-bottom: 1px solid #F0F2F5;
+}
+
+.linkList a {
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #667085;
+    gap: 12px;
+    border-radius: 4px;
+}
+.linkList a:hover {
+    background-color: #EAECF0;
+}
+.linkList a.active {
+    background-color: #EFECE9;
+    color: #A41857;
+}
+
+.linkList a img {
+    width: 20px;
+    height: 20px;
+}
+
+.linkList a .red {
+    display: none;
+}
+
+.linkList a.active .red {
+    display: block;
+}
+.linkList a.active .grey {
+    display: none;
+}
+
+
+.logOut {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    color: #ED405C;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    gap: 12px;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+.logOut img {
+    width: 20px;
+    height: 20px;
+}
+
+
+@media screen and (max-width: 30em) {
+    .theWhole {
+        display: none;
+    }
+    .logo {
+        height: 70px;
+    }
+    .logo a {
+        display: none;
+    }
+    .showNav {
+        display: flex;
+        position: fixed;
+    }
+    .hiddenWhole {
+        display: block;
+        width: 100%;
+        max-width: 240px;
+    }
+    .logoTwo {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        padding: 0 14px;
+        align-items: center;
+        color: #A41857;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .logoTwo img {
+        width: auto;
+        height: 60%;
+    }
+}

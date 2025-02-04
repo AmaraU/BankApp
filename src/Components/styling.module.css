@@ -1,0 +1,40 @@
+
+.acctStmntTable {
+    width: 100%;
+    margin-top: 16px;
+}
+.acctStmntTable thead {
+    text-align: left;
+    background: #D391AF0D;
+    font-size: 8px;
+    font-weight: 600;
+    color: #101828;
+    padding: 12px;
+}
+.acctStmntTable th {
+    padding: 12px 0px;
+    text-align: left;
+}
+.acctStmntTable th:first-child {
+    padding: 12px 16px;
+    border-radius: 4px 0 0 4px;
+    border-radius: 0 4px 4px 0;
+
+}
+.acctStmntTable th:first-child {
+    padding: 12px 16px;
+    border-radius: 4px 0 0 4px;
+    border-radius: 0 4px 4px 0;
+}
+
+.acctStmntTable tr {
+    /* padding: 12px 0; */
+    border-bottom: 0.5px solid #DCD6CF;
+}
+.acctStmntTable td {
+    text-align: left;
+    padding: 12px 0;
+    font-size: 8px;
+    color: #101828;
+    font-weight: 450;
+}

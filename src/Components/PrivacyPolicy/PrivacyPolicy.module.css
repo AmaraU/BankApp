@@ -1,0 +1,78 @@
+.whole {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wholeDiv {
+    width: 70%;
+    max-width: 900px;
+    height: 100%;
+    font-size: 15px;
+    padding: 24px 0;
+}
+
+.wholeDiv img {
+    justify-self: end;
+    width: 150px;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.brownDiv {
+    background: #DDD9C3;
+    padding: 40px 10%;
+}
+.brownDiv h1 {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+.brownDiv h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.brownDiv .line {
+    border: 1px solid #000000;
+}
+.brownDiv h3 {
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+.brownDiv h5 {
+    font-size: 13px;
+    margin: 40px 0;
+}
+.brownDiv p {
+    font-size: 12px;
+}
+
+.wholeDiv h4 {
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 6px;
+    font-size: 17px;
+}
+
+.wholeDiv p {
+    text-align: justify;
+}
+
+.wholeDiv li {
+    margin-left: 30px;
+}
+.wholeDiv ul, ol {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.wholeDiv ol li::marker {
+    font-weight: 700;
+}
+
+.wholeDiv a {
+    color: #0000FF;
+}

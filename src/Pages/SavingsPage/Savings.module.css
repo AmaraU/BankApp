@@ -1,0 +1,93 @@
+.whole {
+    padding: 38px 44px;
+    margin-top: 70px;
+    margin-left: 272px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.actionsClosed {
+    display: none;
+}
+.theActions {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0px 4px 12px 0px #9CA3AF33;
+    border-radius: 8px;
+    padding: 9px 8px;
+    position: absolute;
+    z-index: 5;
+    width: 230px;
+    margin-top: 100px;
+}
+
+
+
+.savings-card{
+    background-image: url("../../../assets/saving-bg.png");
+    background-position: "cover";
+    color: white !important;
+    padding: 12px
+}
+
+
+.savings-card > h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* .savings-card-img{
+    width: 200px !important
+} */
+
+
+.personal-saving-form > *{
+    margin: 15px 0px 0px 0px
+}
+
+
+.progress {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 25px;
+    overflow: hidden;
+    align-self: center;
+    color: #00BA88;
+}
+.progress::-webkit-progress-bar {
+    background: #EAECF0;
+}
+.progress::-webkit-progress-value {
+    background: #00BA88;
+    border-radius: 18px;
+}
+.progress::-ms-progress-bar {
+    background-color: #EAECF0;
+}
+.progress::-ms-progress-value {
+    background: #00BA88;
+    border-radius: 18px;
+}
+.progress::-moz-progress-bar {
+    background-color: #EAECF0;
+}
+.progress::-moz-progress-value {
+    background: #00BA88;
+    border-radius: 18px;
+}

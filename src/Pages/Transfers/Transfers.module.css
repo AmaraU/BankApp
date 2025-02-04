@@ -1,0 +1,95 @@
+.whole {
+    padding: 38px 44px;
+    margin-top: 70px;
+    margin-left: 250px;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+}
+
+.actionsClosed {
+    display: none;
+}
+.theActions {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0px 4px 12px 0px #9CA3AF33;
+    border-radius: 8px;
+    padding: 9px 8px;
+    position: absolute;
+    z-index: 5;
+    width: 230px;
+    margin-left: -110px;
+}
+
+
+
+
+.historyTable {
+    width: 100%;
+}
+.historyTable thead {
+    text-align: left;
+    background: #D391AF0D;
+    font-size: 14px;
+    font-weight: 600;
+    color: #667085;
+    padding: 12px;
+}
+.historyTable th {
+    padding: 12px;
+    text-align: left;
+}
+.historyTable th:first-child {
+    padding: 12px 16px;
+    border-radius: 4px 0 0 4px;
+    border-radius: 0 4px 4px 0;
+
+}
+.historyTable th:first-child {
+    padding: 12px 16px;
+    border-radius: 4px 0 0 4px;
+    border-radius: 0 4px 4px 0;
+}
+
+.historyTable tr {
+    border-bottom: 0.5px solid #DCD6CF;
+}
+.historyTable tr:last-child {
+    border-bottom: none;
+}
+.historyTable td {
+    text-align: left;
+    padding: 12px;
+    font-size: 14px;
+    color: #394455;
+    font-weight: 450;
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+    border-radius: 500px;
+    padding: 8px;
+    background: #A41857;
+}
+
+
+
+
+@media screen and (max-width: 48em) {
+    .whole {
+        padding: 32px 15px;
+    }
+}
+
+@media screen and (max-width: 30em) {
+    .whole {
+        margin-left: 0;
+    }
+}

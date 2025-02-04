@@ -1,0 +1,121 @@
+.changing {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.visible {
+    opacity: 1;
+}
+
+.signUp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    margin-top: 16px;
+    gap: 8px;
+}
+.signUp a,
+.link {
+    color: #A41857;
+    font-weight: 500;
+    cursor: pointer;
+}
+.signUp a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    border: 0.5px solid #DCDEE3;
+    width: 50%;
+}
+
+.forgot {
+    font-size: 18px;
+    font-weight: 500;
+    color: #A41857;
+    width: "fit-content";
+    align-self: end;
+    cursor: pointer;
+}
+.forgot:hover {
+    text-decoration: underline;
+}
+
+
+.webcam {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.snap {
+    width: 80px;
+    height: 80px;
+}
+
+.captured {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+.strengthBar {
+    width: 100%;
+    height: 4px;
+    background-color: #EAECF0;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+.passwordUncheck {
+    color: #667085;
+    font-size: 11px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+.passwordCheck {
+    color: #667085;
+    font-size: 11px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.passwordUncheck div {
+    width: 12px;
+    height: 12px;
+    background: #EAECF0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.passwordCheck div {
+    width: 12px;
+    height: 12px;
+    background: #2AD062;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.passwordUncheck div img {
+    display: none;
+}
+.passwordCheck div img {
+    width: 6px;
+    height: 6px;
+}
+
+@media screen and (max-width: 48em) {
+    .signUp {
+        flex-direction: column;
+    }
+    .snap {
+        width: 40px;
+        height: 40px;
+    }
+}

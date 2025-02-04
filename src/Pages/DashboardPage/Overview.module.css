@@ -1,0 +1,189 @@
+.whole {
+    padding: 38px 44px;
+    margin-top: 70px;
+    margin-left: 250px;
+}
+
+Button img {
+    width: 24px;
+    height: 24px;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+}
+
+.copy {
+    width: 16px;
+    height: 16px;
+}
+
+
+.credDeb {
+    margin:-5px;
+    width: 30px;
+    height: 30px;
+}
+
+.dotss {
+    width: 10%;
+    height: 50%;
+}
+
+.theBox {
+    box-shadow: 0px 4px 33px 0px #0000001A;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    position: absolute;
+    width: 400px;
+    margin-top: 5px;
+    right: 5%;
+    z-index: 2;
+}
+.theBox .header {
+    display: flex;
+    padding: 10px 10px 3px 10px;
+    justify-content: space-between;
+}
+.theBox h3 {
+    flex: 90%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #394455;
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+}
+.theBox img {
+    width: 13px;
+    height: 13px;
+    align-self: start;
+    cursor: pointer;
+}
+.limitInfo h4 {
+    font-size: 8px;
+    font-weight: 600;
+    color: #101828;
+    padding-bottom: 6px;
+    border-bottom: 0.5px solid #EAECF0;
+    margin-bottom: 6px;
+}
+.limitInfo div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #101828;
+}
+.limitInfo div img {
+    width: 9px;
+    height: 9px;
+}
+.limitInfo div span {
+    font-weight: 600;
+}
+
+
+
+.historyTable {
+    width: 100%;
+}
+.historyTable thead {
+    text-align: left;
+    background: #D391AF0D;
+    font-size: 14px;
+    font-weight: 600;
+    color: #667085;
+    padding: 12px;
+}
+.historyTable th {
+    padding: 12px 0px;
+    text-align: left;
+}
+.historyTable th:first-child {
+    padding: 12px 16px;
+    border-radius: 4px 0 0 4px;
+    border-radius: 0 4px 4px 0;
+
+}
+.historyTable th:first-child {
+    padding: 12px 16px;
+    border-radius: 4px 0 0 4px;
+    border-radius: 0 4px 4px 0;
+}
+
+.historyTable tr {
+    /* padding: 12px 0; */
+    border-bottom: 0.5px solid #DCD6CF;
+}
+.historyTable td {
+    text-align: left;
+    padding: 12px 0;
+    font-size: 14px;
+    color: #394455;
+    font-weight: 450;
+}
+
+
+.actionsClosed {
+    display: none;
+}
+.theActions {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0px 4px 12px 0px #9CA3AF33;
+    border-radius: 8px;
+    padding: 9px 8px;
+    position: absolute;
+    z-index: 5;
+    width: 230px;
+    margin-left: -110px;
+    margin-top: 5px;
+}
+
+.check {
+    width: 12px;
+    height: 12px;
+}
+
+
+@media screen and (max-width: 48em) {
+    .whole {
+        padding: 32px 20px;
+    }
+    .arrow {
+        width: 18px;
+        height: 18px;
+    }
+    .check {
+        width: 10px;
+        height: 10px;
+    }
+
+
+    
+    .theBox {
+        width: 200px;
+        right: auto;
+    }
+    .theBox h3 {
+        font-size: 14px;
+    }
+    .limitInfo div {
+        flex-direction: column;
+        align-items: start;
+        font-size: 11px;
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 30em) {
+    .whole {
+        margin-left: 0;
+    }
+}
